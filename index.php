@@ -173,7 +173,7 @@
                                 <h5 class="mb-2">How to Stay Safe on Instagram</h5>
 
                                 <p class="mb-0">
-                                    Instagram is the most popular social media for sharing photographs and videos. It is a terrific technique to communicate what you're up to, follow mates and stars, and locate images and videos about activities you're interested in.
+                                    Instagram is the social app notable for broadcasting celebrities' up to current activity. It is quite easy to interact among the superstars and their audience.
                                 </p>
 
                                 <a href="instagram-safety.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
