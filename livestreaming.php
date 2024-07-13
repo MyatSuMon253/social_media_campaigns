@@ -24,7 +24,7 @@
 
             <div class="col-lg-5 col-12">
                 <div class="topics-detail-block bg-white shadow-lg">
-                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                    <img src="images/stay-safe-3.png" class="custom-block-image img-fluid" alt="">
                 </div>
             </div>
 

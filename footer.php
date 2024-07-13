@@ -48,8 +48,8 @@
                     </a>
                 </p>
                 <p class="text-white d-flex">
-                    <a href="mailto:smc@support.com" class="site-footer-link">
-                        smc@support.com
+                    <a href="mailto:support@smc.com" class="site-footer-link">
+                        support@smc.com
                     </a>
                 </p>
             </div>

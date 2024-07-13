@@ -56,7 +56,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="contact.php">Contact</a>
+                            <a class="nav-link click-scroll" href="contact-us.php">Contact</a>
                         </li>
 
                     </ul>

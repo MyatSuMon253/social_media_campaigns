@@ -24,7 +24,7 @@
 
             <div class="col-lg-5 col-12">
                 <div class="topics-detail-block bg-white shadow-lg">
-                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="topics-detail-block-image img-fluid">
+                    <img src="images/stay-safe-1.png" class="topics-detail-block-image img-fluid">
                 </div>
             </div>
 

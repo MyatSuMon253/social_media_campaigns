@@ -24,7 +24,7 @@
 
             <div class="col-lg-5 col-12">
                 <div class="topics-detail-block bg-white shadow-lg">
-                    <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                    <img src="images/stay-safe-2.png" class="custom-block-image img-fluid" alt="">
                 </div>
             </div>
 

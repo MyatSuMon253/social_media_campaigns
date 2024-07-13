@@ -11,7 +11,7 @@
             <div class="col-lg-8 col-12 mt-3 mx-auto">
                 <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
                     <div class="d-flex">
-                        <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                        <img src="images/stay-safe-1.png" class="custom-block-image img-fluid" alt="">
 
                         <div class="custom-block-topics-listing-info d-flex">
                             <div>
@@ -27,7 +27,7 @@
 
                 <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
                     <div class="d-flex">
-                        <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                        <img src="images/stay-safe-2.png" class="custom-block-image img-fluid" alt="">
 
                         <div class="custom-block-topics-listing-info d-flex">
                             <div>
@@ -46,7 +46,7 @@
 
                 <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
                     <div class="d-flex">
-                        <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                        <img src="images/stay-safe-3.png" class="custom-block-image img-fluid" alt="">
 
                         <div class="custom-block-topics-listing-info d-flex">
                             <div>

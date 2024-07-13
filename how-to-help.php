@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="faq-section section-padding" id="section_4">
+<section class="faq-section section-padding">
     <div class="container">
         <div class="row">
 
@@ -11,7 +11,7 @@
             <div class="clearfix"></div>
 
             <div class="col-lg-5 col-12">
-                <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                <img src="images/faq-graphic.jpg" class="img-fluid" alt="FAQs">
             </div>
 
             <div class="col-lg-6 col-12 m-auto">

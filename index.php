@@ -1,773 +1,409 @@
-<!doctype html>
-<html lang="en">
+<?php include('header.php'); ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="social media campaigns">
-    <title>SMC Ltd</title>
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
+<section class="hero-section d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row">
 
-<body id="top">
+            <div class="col-lg-8 col-12 mx-auto">
+                <h1 class="text-white text-center">Social Media Campaigns</h1>
 
-    <main>
+                <h6 class="text-center">platform for social media awareness and support for teenagers</h6>
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.php">
-                    <span>SMC</span>
-                </a>
+                <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text bi-search" id="basic-addon1">
 
-                <div class="d-lg-none ms-auto me-4">
-                    <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                </div>
+                        </span>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Search" aria-label="Search">
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-lg-5 me-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">Browse Topics</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">How it works</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">FAQs</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">Contact</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-
-                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
-
-                                <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <div class="d-none d-lg-block">
-                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        <button type="submit" class="form-control">Search</button>
                     </div>
-                </div>
+                </form>
             </div>
-        </nav>
 
+        </div>
+    </div>
+</section>
 
-        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-8 col-12 mx-auto">
-                        <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
-
-                        <h6 class="text-center">platform for creatives around the world</h6>
-
-                        <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
-                            <div class="input-group input-group-lg">
-                                <span class="input-group-text bi-search" id="basic-addon1">
-
-                                </span>
-
-                                <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
-
-                                <button type="submit" class="form-control">Search</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section class="featured-section">
-            <div class="container">
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block bg-white shadow-lg">
-                            <a href="topics-detail.html">
-                                <div class="d-flex">
-                                    <div>
-                                        <h5 class="mb-2">Web Design</h5>
-
-                                        <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
-                                    </div>
-
-                                    <span class="badge bg-design rounded-pill ms-auto">14</span>
-                                </div>
-
-                                <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
-                            </a>
+<section class="featured-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                <div class="custom-block bg-white shadow-lg">
+                    <div class="d-flex">
+                        <div>
+                            <h5 class="mb-2">Overview</h5>
+                            <p class="mb-0">Social media plays an essential role in teenagers today. According to our surveys, 90% of teens ages 13-17 have used social media widely. 75% having at least one active social media account, and 51% visiting a social media site daily. Nearly 70% have their own mobile devices with internet capabilities. </p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="custom-block custom-block-overlay">
+                    <div class="d-flex flex-column h-100">
+                        <img src="images/featured-photo.jpg" class="custom-block-image img-fluid" alt="">
+                        <div class="custom-block-overlay-text d-flex">
+                            <div>
+                                <h5 class="text-white mb-2">Potential Risk</h5>
 
-                    <div class="col-lg-6 col-12">
-                        <div class="custom-block custom-block-overlay">
-                            <div class="d-flex flex-column h-100">
-                                <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
-
-                                <div class="custom-block-overlay-text d-flex">
-                                    <div>
-                                        <h5 class="text-white mb-2">Finance</h5>
-
-                                        <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
-
-                                        <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
-                                    </div>
-
-                                    <span class="badge bg-finance rounded-pill ms-auto">25</span>
-                                </div>
-
-                                <div class="social-share d-flex">
-                                    <p class="text-white me-4">Share:</p>
-
-                                    <ul class="social-icon">
-                                        <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-twitter"></a>
-                                        </li>
-
-                                        <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-facebook"></a>
-                                        </li>
-
-                                        <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-pinterest"></a>
-                                        </li>
-                                    </ul>
-
-                                    <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                </div>
-
-                                <div class="section-overlay"></div>
+                                <p class="text-white">
+                                    Exposure to dangerous or improper content
+                                </p>
+                                <p class="text-white">
+                                    Oversharing personal smcrmation
+                                </p>
+                                <p class="text-white">
+                                    Identity theft or being hacked
+                                </p>
+                                <p class="text-white">
+                                    Cyber bullying, a risk factor for depression and suicide
+                                </p>
+                                <p class="text-white">
+                                    Reduced physical movement
+                                </p>
                             </div>
                         </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section class="explore-section section-padding" id="section_2">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">Browse Topics</h1>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Design</button>
-                        </li>
-
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Marketing</button>
-                        </li>
-
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Finance</button>
-                        </li>
-
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Music</button>
-                        </li>
-
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="false">Education</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12">
-                        <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Web Design</h5>
-
-                                                        <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
-                                                    </div>
-
-                                                    <span class="badge bg-design rounded-pill ms-auto">14</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Graphic</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-design rounded-pill ms-auto">75</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Logo Design</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-design rounded-pill ms-auto">100</span>
-                                                </div>
-
-                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Advertising</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-advertising rounded-pill ms-auto">30</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Video Content</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-advertising rounded-pill ms-auto">65</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Viral Tweet</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Investment</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-finance rounded-pill ms-auto">30</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="custom-block custom-block-overlay">
-                                            <div class="d-flex flex-column h-100">
-                                                <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
-
-                                                <div class="custom-block-overlay-text d-flex">
-                                                    <div>
-                                                        <h5 class="text-white mb-2">Finance</h5>
-
-                                                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
-
-                                                        <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
-                                                    </div>
-
-                                                    <span class="badge bg-finance rounded-pill ms-auto">25</span>
-                                                </div>
-
-                                                <div class="social-share d-flex">
-                                                    <p class="text-white me-4">Share:</p>
-
-                                                    <ul class="social-icon">
-                                                        <li class="social-icon-item">
-                                                            <a href="#" class="social-icon-link bi-twitter"></a>
-                                                        </li>
-
-                                                        <li class="social-icon-item">
-                                                            <a href="#" class="social-icon-link bi-facebook"></a>
-                                                        </li>
-
-                                                        <li class="social-icon-item">
-                                                            <a href="#" class="social-icon-link bi-pinterest"></a>
-                                                        </li>
-                                                    </ul>
-
-                                                    <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                                </div>
-
-                                                <div class="section-overlay"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Composing Song</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Online Music</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Podcast</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-music rounded-pill ms-auto">20</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Graduation</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-education rounded-pill ms-auto">80</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="custom-block bg-white shadow-lg">
-                                            <a href="topics-detail.html">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Educator</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-education rounded-pill ms-auto">75</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Educator_re_ju47.png" class="custom-block-image img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-        </section>
-
-
-        <section class="timeline-section section-padding" id="section_3">
-            <div class="section-overlay"></div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12 text-center">
-                        <h2 class="text-white mb-4">How does it work?</h1>
-                    </div>
-
-                    <div class="col-lg-10 col-12 mx-auto">
-                        <div class="timeline-container">
-                            <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
-                                <div class="list-progress">
-                                    <div class="inner"></div>
-                                </div>
-
-                                <li>
-                                    <h4 class="text-white mb-3">Search your favourite topic</h4>
-
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
-
-                                    <div class="icon-holder">
-                                        <i class="bi-search"></i>
-                                    </div>
+                        <div class="social-share d-flex">
+                            <ul class="social-icon">
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-twitter"></a>
                                 </li>
 
-                                <li>
-                                    <h4 class="text-white mb-3">Bookmark &amp; Keep it for yourself</h4>
-
-                                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. Doloremque, repudiandae?</p>
-
-                                    <div class="icon-holder">
-                                        <i class="bi-bookmark"></i>
-                                    </div>
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-facebook"></a>
                                 </li>
 
-                                <li>
-                                    <h4 class="text-white mb-3">Read &amp; Enjoy</h4>
-
-                                    <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa deleniti officiis autem?</p>
-
-                                    <div class="icon-holder">
-                                        <i class="bi-book"></i>
-                                    </div>
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link bi-pinterest"></a>
                                 </li>
                             </ul>
+
+                            <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
                         </div>
-                    </div>
 
-                    <div class="col-12 text-center mt-5">
-                        <p class="text-white">
-                            Want to learn more?
-                            <a href="#" class="btn custom-btn custom-border-btn ms-3">Check out Youtube</a>
-                        </p>
+                        <div class="section-overlay"></div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-        <section class="faq-section section-padding" id="section_4">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-6 col-12">
-                        <h2 class="mb-4">Frequently Asked Questions</h2>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-lg-5 col-12">
-                        <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
-                    </div>
-
-                    <div class="col-lg-6 col-12 m-auto">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What is Topic Listing?
-                                    </button>
-                                </h2>
-
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to redistribute this template</strong> on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        How to find a topic?
-                                    </button>
-                                </h2>
-
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        You can search on Google with <strong>keywords</strong> such as templatemo portfolio, templatemo one-page layouts, photography, digital marketing, etc.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Does it need to paid?
-                                    </button>
-                                </h2>
-
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section class="contact-section section-padding section-bg" id="section_5">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12 text-center">
-                        <h2 class="mb-5">Get in touch</h2>
-                    </div>
-
-                    <div class="col-lg-5 col-12 mb-4 mb-lg-0">
-                        <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.065641062665!2d-122.4230416990949!3d37.80335401520422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858127459fabad%3A0x808ba520e5e9edb7!2sFrancisco%20Park!5e1!3m2!1sen!2sth!4v1684340239744!5m2!1sen!2sth" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-                        <h4 class="mb-3">Head office</h4>
-
-                        <p>Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
-
-                        <hr>
-
-                        <p class="d-flex align-items-center mb-1">
-                            <span class="me-2">Phone</span>
-
-                            <a href="tel: 305-240-9671" class="site-footer-link">
-                                305-240-9671
-                            </a>
-                        </p>
-
-                        <p class="d-flex align-items-center">
-                            <span class="me-2">Email</span>
-
-                            <a href="mailto:info@company.com" class="site-footer-link">
-                                info@company.com
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mx-auto">
-                        <h4 class="mb-3">Dubai office</h4>
-
-                        <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
-
-                        <hr>
-
-                        <p class="d-flex align-items-center mb-1">
-                            <span class="me-2">Phone</span>
-
-                            <a href="tel: 110-220-3400" class="site-footer-link">
-                                110-220-3400
-                            </a>
-                        </p>
-
-                        <p class="d-flex align-items-center">
-                            <span class="me-2">Email</span>
-
-                            <a href="mailto:info@company.com" class="site-footer-link">
-                                info@company.com
-                            </a>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer section-padding">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-12 mb-4 pb-2">
-                    <a class="navbar-brand mb-2" href="index.html">
-                        <i class="bi-back"></i>
-                        <span>Topic</span>
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6">
-                    <h6 class="site-footer-title mb-3">Resources</h6>
-
-                    <ul class="site-footer-links">
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Home</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">How it works</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">FAQs</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
-                    <h6 class="site-footer-title mb-3">Information</h6>
-
-                    <p class="text-white d-flex mb-1">
-                        <a href="tel: 305-240-9671" class="site-footer-link">
-                            305-240-9671
-                        </a>
-                    </p>
-
-                    <p class="text-white d-flex">
-                        <a href="mailto:info@company.com" class="site-footer-link">
-                            info@company.com
-                        </a>
-                    </p>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            English</button>
-
-                        <ul class="dropdown-menu">
-                            <li><button class="dropdown-item" type="button">Thai</button></li>
-
-                            <li><button class="dropdown-item" type="button">Myanmar</button></li>
-
-                            <li><button class="dropdown-item" type="button">Arabic</button></li>
-                        </ul>
-                    </div>
-
-                    <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                    </p>
-
-                </div>
-
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
+<section class="timeline-section section-padding">
+    <div class="section-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-12 mx-auto">
+                <div class="col-12 text-center">
+                    <h2 class="mb-4 text-white">About Us</h2>
+                </div>
+                <p class="text-white">
+                    Our company is dedicated to empowering teenagers with the smcrmation and tools to navigate social media safely. We provide support and education, helping teenagers understand the risks of social media apps. Through our online platform, we offer relevant resources and suggestions on digital safety. Additionally, our website offers a membership section where customers may join up for a monthly email, ensuring they stay current with the newest insights and recommendations.
+                </p>
+                <div class="timeline-container">
+                    <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                        <div class="list-progress">
+                            <div class="inner"></div>
+                        </div>
+                        <li>
+                            <h4 class="text-white mb-3">Mission</h4>
+                            <p class="text-white">To educate and empower youth with the information and tools to utilize social media securely, fostering a responsible and positive digital experience.</p>
+                            <div class="icon-holder">
+                                <i class="bi-graph-up"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="text-white mb-3">Vision</h4>
+                            <p class="text-white">Our vision is a digital landscape where youth interact with social media confidently and responsibly, supported by a community dedicated to promoting online safety and well-being.
+                            </p>
+                            <div class="icon-holder">
+                                <i class="bi-gem"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <h4 class="text-white mb-3">Value</h4>
+                            <p class="text-white">We place teenagers' safety and welfare first in all of our initiatives, encouraging responsible online conduct and safeguarding their privacy.
+                            </p>
+                            <p class="text-white">We think it's crucial to teach youngsters the knowledge and talents they need to make sensible decisions regarding their internet presence.
+                            </p>
+                            <p class="text-white">We embrace ethical principles in all areas of our campaign, pushing for norms and practices that promote openness, justice, and respect online.</p>
+                            <div class="icon-holder">
+                                <i class="bi-book"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
 
-</body>
+            <div class="col-lg-12 col-12 text-center">
+                <h3 class="mb-4">Risks of Social Media Apps</h3>
+            </div>
 
-</html>
+            <div class="col-lg-8 col-12 mt-3 mx-auto">
+                <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                    <div class="d-flex">
+                        <img src="images/stay-safe-1.png" class="custom-block-image img-fluid" alt="">
+
+                        <div class="custom-block-topics-listing-info d-flex">
+                            <div>
+                                <h5 class="mb-2">How to Stay Safe on Facebook</h5>
+
+                                <p class="mb-0">Facebook may be an amazing platform to reconnected with our old friends, stay up to date with family and friends, and share our opinion within community. It can be safe when you take use of its Facebook settings and are careful about the information you share.</p>
+
+                                <a href="facebook-safety.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                    <div class="d-flex">
+                        <img src="images/stay-safe-2.png" class="custom-block-image img-fluid" alt="">
+
+                        <div class="custom-block-topics-listing-info d-flex">
+                            <div>
+                                <h5 class="mb-2">How to Stay Safe on Instagram</h5>
+
+                                <p class="mb-0">
+                                    Instagram is the most popular social media for sharing photographs and videos. It is a terrific technique to communicate what you're up to, follow mates and stars, and locate images and videos about activities you're interested in.
+                                </p>
+
+                                <a href="instagram-safety.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                    <div class="d-flex">
+                        <img src="images/stay-safe-3.png" class="custom-block-image img-fluid" alt="">
+
+                        <div class="custom-block-topics-listing-info d-flex">
+                            <div>
+                                <h5 class="mb-2">How to Stay Safe on livestreaming</h5>
+
+                                <p class="mb-0">With all social media, there comes risk. Risk associated with privacy, data and vulnerabilities. Where videos could once be censored and taken down, when acts unfold live over the internet, it is often a lot less containable. Most recently, there have been some horrific and disturbing results, with murder, rape and other horrific violent crimes occurring in real-time on live streaming channels.</p>
+
+                                <a href="livestreaming.php" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-12">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center mb-0">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">Prev</span>
+                            </a>
+                        </li>
+
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="faq-section section-padding">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6 col-12">
+                <h2 class="mb-4">How Parents Can Help?</h2>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-lg-5 col-12">
+                <img src="images/faq-graphic.jpg" class="img-fluid" alt="FAQs">
+            </div>
+
+            <div class="col-lg-6 col-12 m-auto">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Set Boundaries
+                            </button>
+                        </h2>
+
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Establish boundaries surrounding screen time and acceptable online behavior.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Educate on Privacy
+                            </button>
+                        </h2>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Teach kids the necessity of keeping personal information private.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Open Communication
+                            </button>
+                        </h2>
+
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Encourage open discussions about their internet experiences and any concerns.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Lead by Example
+                            </button>
+                        </h2>
+
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Model healthy social media practices yourself.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Monitor Activity
+                            </button>
+                        </h2>
+
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Keep a watch on their internet activities while maintaining their privacy.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Use Safety Features
+                            </button>
+                        </h2>
+
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Help them use privacy settings and safety features on social media platforms.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="contact-section section-padding section-bg">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-12 text-center">
+                <h2 class="mb-5">Get in touch</h2>
+            </div>
+
+            <div class="col-lg-5 col-12 mb-4 mb-lg-0">
+                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.354622260213!2d96.13938411334496!3d16.85834328623666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1948fee76bb87%3A0x91b835d60e63bfce!2s7th%20Mile%20Bus%20Stop!5e0!3m2!1sen!2sus!4v1720839820969!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
+                <h4 class="mb-3">Head office</h4>
+
+                <p>Pyay Road &amp; 7 miles, Yangon, Myanmar</p>
+
+                <hr>
+
+                <p class="d-flex align-items-center mb-1">
+                    <span class="me-2">Phone</span>
+
+                    <a href="tel: 09 789 164 616" class="site-footer-link">
+                        09 789 164 616
+                    </a>
+                </p>
+
+                <p class="d-flex align-items-center">
+                    <span class="me-2">Email</span>
+
+                    <a href="mailto:support@smc.com" class="site-footer-link">
+                        support@smc.com
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 mx-auto">
+                <h4 class="mb-3">Mandalay office</h4>
+
+                <p>Mingalar Mandalay Hotel, Mandalay</p>
+
+                <hr>
+
+                <p class="d-flex align-items-center mb-1">
+                    <span class="me-2">Phone</span>
+
+                    <a href="tel: 09 789 164 616" class="site-footer-link">
+                        09 789 164 616
+                    </a>
+                </p>
+
+                <p class="d-flex align-items-center">
+                    <span class="me-2">Email</span>
+
+                    <a href="mailto:support@smc.com" class="site-footer-link">
+                        support@smc.com
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<?php include('footer.php'); ?>
