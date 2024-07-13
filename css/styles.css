@@ -921,6 +921,10 @@ blockquote {
   line-height: normal;
 }
 
+.active-footer {
+  color: var(--primary-color);
+}
+
 .copyright-text {
   font-size: var(--copyright-font-size);
 }
