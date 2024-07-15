@@ -35,7 +35,7 @@
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="contact.php" class="site-footer-link">Contact</a>
+                        <a href="contact-us.php" class="site-footer-link">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -22,7 +22,6 @@
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-floating">
                                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-
                                 <label for="floatingInput">Email address</label>
                             </div>
                         </div>
@@ -30,13 +29,11 @@
                         <div class="col-lg-12 col-12">
                             <div class="form-floating">
                                 <input type="text" name="subject" id="name" class="form-control" placeholder="Name" required="">
-
                                 <label for="floatingInput">Subject</label>
                             </div>
 
                             <div class="form-floating">
                                 <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
-
                                 <label for="floatingTextarea">Message</label>
                             </div>
                         </div>
