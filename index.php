@@ -67,15 +67,11 @@
                         <div class="social-share d-flex">
                             <ul class="social-icon">
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                    <a href="https://www.youtube.com" class="social-icon-link bi-youtube"></a>
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-facebook"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-pinterest"></a>
+                                    <a href="https://www.pinterest.com" class="social-icon-link bi-pinterest"></a>
                                 </li>
                             </ul>
 
