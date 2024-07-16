@@ -285,6 +285,7 @@ strong {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: transparent;
 }
 
 .navbar-nav .nav-link.active,
