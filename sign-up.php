@@ -51,12 +51,20 @@
         return TRUE;
     }
 
+    function sanitize_input($data){
+        $data = trim($data); // Remove white spaces
+        // Convert special characters to HTML entities to prevent XSS attacks
+        $data = htmlspecialchars($data);
+        return $data;
+    }
+
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $username = $_POST["username"];
-        $email = trim($_POST["email"]);
-        $address = $_POST["address"];
-        $phone = $_POST["phone"];
-        $pass = password_hash($_POST["pass"], PASSWORD_DEFAULT);
+        $username = sanitize_input($_POST["username"]);
+        $email = sanitize_input($_POST["email"]);
+        $address = sanitize_input($_POST["address"]);
+        $phone = sanitize_input($_POST["phone"]);
+        $pass = password_hash(sanitize_input($_POST["pass"]), PASSWORD_DEFAULT);
 
         if (valid_email($email)) {
             $statement = mysqli_prepare(

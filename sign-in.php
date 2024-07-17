@@ -60,9 +60,17 @@
         $_SESSION['current_time'] = 0;
     }
 
+    function sanitize_input($data)
+    {
+        $data = trim($data); // Remove white spaces
+        // Convert special characters to HTML entities to prevent XSS attacks
+        $data = htmlspecialchars($data);
+        return $data;
+    }
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $login_email = trim($_POST["email"]);
-        $login_password = $_POST["pass"];
+        $login_email = sanitize_input($_POST["email"]);
+        $login_password = sanitize_input($_POST["pass"]);
         $_SESSION['current_time'] = time();
 
         // Check if lockout period has expired
