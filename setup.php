@@ -7,7 +7,7 @@ if (mysqli_connect_error()) {
 $query = "CREATE DATABASE IF NOT EXISTS SMC; USE SMC;";
 
 $query .= "CREATE TABLE IF NOT EXISTS customer(
-    customer_id int(1) auto_increment primary key, " . "
+    customer_id int(5) auto_increment primary key, " . "
     customer_name varchar(30) not null, 
     email char(50) not null unique, " . "
     password char(150) not null,  
@@ -15,7 +15,7 @@ $query .= "CREATE TABLE IF NOT EXISTS customer(
     phone varchar(30) not null);";
 
 $query .= "CREATE TABLE IF NOT EXISTS admin(
-    admin_id int(5) primary key, " . "
+    admin_id int(5) auto_increment primary key, " . "
     admin_name varchar(30) not null, 
     email char(50) not null unique, " . "
     password char(150) not null, 
